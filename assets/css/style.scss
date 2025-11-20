@@ -3,39 +3,40 @@
 
 @import "minima";
 
-/* Grid container for homepage */
-.grid-homepage {
-  display: grid;
-  grid-template-columns: 120px 1fr; /* image left, text takes remaining space */
-  align-items: start;
-  gap: 2rem;
-  max-width: 900px;
+/* Hide the page title but keep it in the navigation menu */
+body.page .post-title {
+  display: none !important;
+}
+
+/* Homepage table styling */
+.homepage-table {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse; /* remove lines */
   margin: 2rem auto;
 }
 
-/* Image styling */
-.grid-homepage .grid-photo img {
-  width: 120px;
-  border-radius: 10px;
+.homepage-table td {
+  border: none; /* remove faint borders */
+  padding: 0;   /* optional: remove cell padding */
+  vertical-align: top;
 }
 
-/* Responsive: stack on small screens */
+/* Responsive: stack columns on small screens */
 @media (max-width: 600px) {
-  .grid-homepage {
-    grid-template-columns: 1fr;
-    text-align: center;
-    justify-items: center;
+  .homepage-table tr {
+    display: block !important;
   }
 
-  .grid-homepage .grid-photo img {
-    width: 80px;
+  .homepage-table td {
+    display: block !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    text-align: center;
+  }
+
+  .homepage-table img {
+    width: 80px !important;
     margin-bottom: 1rem;
   }
-}
-
-/* Hide default page title */
-body.page .post-title {
-  display: none;
-
-  
 }
