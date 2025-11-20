@@ -3,14 +3,12 @@
 
 @import "minima";
 
-/* --- Custom homepage styles --- */
-
-/* Hide homepage title */
+/* Hide homepage page title */
 body.page .post-title {
   display: none !important;
 }
 
-/* Hide footer / site title */
+/* Hide homepage footer / site title */
 body.page .site-footer {
   display: none !important;
 }
@@ -19,7 +17,7 @@ body.page .site-footer {
 .homepage-table {
   width: 100%;
   max-width: 600px;
-  border-collapse: collapse;
+  border-collapse: collapse; /* removes faint lines */
   margin: 2rem auto;
 }
 
