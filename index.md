@@ -1,6 +1,6 @@
 ---
 layout: page
-title: home
+title: ""
 permalink: /
 ---
 
@@ -17,7 +17,7 @@ permalink: /
     <td style="padding-left:20px; vertical-align:top; border:none;">
       <!-- Page title hidden manually -->
       <h1 style="display:none;">Home</h1>
-      <h1>hi, i'm Caroline!</h1>
+      <h1>hi, i'm caroline!</h1>
       <p>website in progress</p>
     </td>
   </tr>
