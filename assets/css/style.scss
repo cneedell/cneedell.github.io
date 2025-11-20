@@ -3,41 +3,31 @@
 
 @import "minima";
 
-/* Container to override Minima’s page styles */
-.about-homepage {
+/* Grid container for homepage */
+.grid-homepage {
+  display: grid;
+  grid-template-columns: 120px 1fr; /* image left, text takes remaining space */
+  align-items: start;
+  gap: 2rem;
   max-width: 900px;
   margin: 2rem auto;
 }
 
-/* Flexbox layout */
-.about-homepage .home-columns {
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  flex-wrap: wrap; /* stack on small screens */
-}
-
 /* Image styling */
-.about-homepage .home-photo img {
+.grid-homepage .grid-photo img {
   width: 120px;
   border-radius: 10px;
-  flex-shrink: 0; /* prevent shrinking */
 }
 
-/* Text column takes remaining space */
-.about-homepage .home-text {
-  flex: 1;
-}
-
-/* Responsive for mobile */
+/* Responsive: stack on small screens */
 @media (max-width: 600px) {
-  .about-homepage .home-columns {
-    flex-direction: column;
-    align-items: center;
+  .grid-homepage {
+    grid-template-columns: 1fr;
     text-align: center;
+    justify-items: center;
   }
 
-  .about-homepage .home-photo img {
+  .grid-homepage .grid-photo img {
     width: 80px;
     margin-bottom: 1rem;
   }
