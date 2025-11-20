@@ -13,7 +13,6 @@ permalink: /
            style="width:120px; border-radius:10px; display:block;" />
     </td>
     <td style="padding-left:20px; vertical-align:top; border:none;">
-      <h1 style="display:none;">""</h1>
       <h1>Hi, I'm Caroline!</h1>
       <p>Website in progress</p>
     </td>
