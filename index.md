@@ -4,7 +4,7 @@ title: about
 ---
 
 <div class="home-columns">
-  <img src="/assets/images/61dc170a-9c66-494f-80a3-bf1a39f527a4.JPG" alt="My photo">
+  <img src="/assets/images/SIX_34D84334-6FBF-4529-BBE9-7557ADF4174D.JPG" alt="My photo">
 
   <div>
     <h1>hi, i'm caroline!</h1>
