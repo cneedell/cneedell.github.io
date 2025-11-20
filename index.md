@@ -37,7 +37,7 @@ permalink: /
     }
 
     img {
-      width: 80px !important;          /* shrink image on small screens */
+      width: 100px !important;          /* shrink image on small screens */
       margin: 0 1rem 0 0 !important;  /* space between image and text */
     }
   }
