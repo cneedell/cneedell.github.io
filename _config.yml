@@ -3,3 +3,8 @@ theme: minima
 title: website
 author: caroline needell
 description: in progress!
+
+header_pages:
+  - index.md
+  - about.md
+  - projects.md
