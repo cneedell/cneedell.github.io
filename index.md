@@ -18,29 +18,27 @@ permalink: /
     </td>
   </tr>
 
-<!-- Inline styles to hide footer and make layout responsive -->
 <style>
-
   /* Hide homepage title */
   body.page h1.post-title {
     display: none !important;
   }
-  
+
   /* Hide Minima footer */
   .site-footer { display: none !important; }
 
-  /* Stack columns on small screens */
+  /* Keep two columns side by side on small screens */
   @media (max-width: 600px) {
     table, tr, td {
-      display: block !important;
-      width: 100% !important;
-      text-align: center;
+      display: table-cell !important;  /* keep them as table cells */
+      width: auto !important;          /* allow columns to size naturally */
+      text-align: left;                /* align text left */
       padding-left: 0 !important;
     }
 
     img {
-      width: 80px !important;
-      margin: 0 auto 1rem auto !important;
+      width: 80px !important;          /* shrink image on small screens */
+      margin: 0 1rem 0 0 !important;  /* space between image and text */
     }
   }
 </style>
