@@ -12,7 +12,7 @@ permalink: /
            style="width:120px;" />
     </td>
     <td style="padding-left:20px; vertical-align:top;">
-      <h1>hi, i'm caroline!</h1>
+      <h1>hi, i'm  caroline!</h1>
       <p>website in progress</p>
     </td>
   </tr>
