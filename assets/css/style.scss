@@ -3,34 +3,47 @@
 
 @import "minima";
 
-/* Two-column layout for homepage */
-.home-columns {
+/* Container to override Minima’s page styles */
+.about-homepage {
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+/* Flexbox layout */
+.about-homepage .home-columns {
   display: flex;
   align-items: center;
   gap: 2rem;
-  margin-bottom: 2rem;
+  flex-wrap: wrap; /* stack on small screens */
 }
 
 /* Image styling */
-.home-columns img {
-  width: 120px !important;
-  height: auto;
+.about-homepage .home-photo img {
+  width: 120px;
   border-radius: 10px;
+  flex-shrink: 0; /* prevent shrinking */
 }
 
-/* Responsive: stack columns on small screens */
+/* Text column takes remaining space */
+.about-homepage .home-text {
+  flex: 1;
+}
+
+/* Responsive for mobile */
 @media (max-width: 600px) {
-  .home-columns {
+  .about-homepage .home-columns {
     flex-direction: column;
+    align-items: center;
     text-align: center;
   }
 
-  .home-columns img {
+  .about-homepage .home-photo img {
+    width: 80px;
     margin-bottom: 1rem;
   }
 }
 
-/* Hide default homepage title */
-body.home .page-title {
+/* Hide default page title */
+body.page .page-title {
   display: none;
 }
