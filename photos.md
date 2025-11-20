@@ -4,5 +4,6 @@ title: photos
 permalink: /photos/
 ---
 
+photos
 
 
