@@ -10,9 +10,9 @@ permalink: /
     <td style="width:120px; vertical-align:top; border:none; padding:0;">
       <img src="/assets/images/SIX_34D84334-6FBF-4529-BBE9-7557ADF4174D.JPG" 
            alt="My photo" 
-           style="width:120px; display:block;" />
+           style="width:120px; border-radius:10px; display:block;" />
     </td>
-    <td style="padding-left:5px; vertical-align:top; border:none;">
+    <td style="padding-left:20px; vertical-align:top; border:none;">
       <h1>hi, i'm caroline!</h1>
       <p>website in progress</p>
     </td>
