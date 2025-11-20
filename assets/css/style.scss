@@ -1,0 +1,35 @@
+---
+---
+
+@import "minima";
+
+/* Two-column layout for homepage */
+.home-columns {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Image styling */
+.home-columns img {
+  width: 180px;
+  border-radius: 10px;
+}
+
+/* Responsive: stack columns on small screens */
+@media (max-width: 600px) {
+  .home-columns {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-columns img {
+    margin-bottom: 1rem;
+  }
+}
+
+/* Hide default homepage title */
+body.home .page-title {
+  display: none;
+}
