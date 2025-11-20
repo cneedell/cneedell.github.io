@@ -5,22 +5,19 @@ permalink: /
 ---
 
 <!-- Two-column layout -->
-<table <table style="width:100%; max-width:600px; border-collapse:collapse; border:none; margin:2rem 0 2rem 0;">
+<table style="width:100%; max-width:600px; border-collapse:collapse; border:none; margin:2rem 0 2rem 1rem;">
   <tr>
-    <!-- Left column: photo -->
     <td style="width:120px; vertical-align:top; border:none; padding:0;">
       <img src="/assets/images/SIX_34D84334-6FBF-4529-BBE9-7557ADF4174D.JPG" 
            alt="My photo" 
            style="width:120px; border-radius:10px; display:block;" />
     </td>
-    <!-- Right column: text -->
     <td style="padding-left:20px; vertical-align:top; border:none;">
-      <!-- Page title hidden manually -->
-      <h1>hi, i'm caroline!</h1>
-      <p>website in progress</p>
+      <h1 style="display:none;">Home</h1>
+      <h1>Hi, I'm Caroline!</h1>
+      <p>Website in progress</p>
     </td>
   </tr>
-</table>
 
 <!-- Inline styles to hide footer and make layout responsive -->
 <style>
