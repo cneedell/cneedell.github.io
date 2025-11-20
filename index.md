@@ -25,6 +25,12 @@ permalink: /
 
 <!-- Inline styles to hide footer and make layout responsive -->
 <style>
+
+  /* Hide homepage title */
+  body.page h1.post-title {
+    display: none !important;
+  }
+  
   /* Hide Minima footer */
   .site-footer { display: none !important; }
 
