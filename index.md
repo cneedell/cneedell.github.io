@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <!-- Two-column layout -->
-<table style="width:100%; max-width:600px; border-collapse:collapse; border:none; margin:2rem 0 2rem 1rem;">
+<table style="width:100%; max-width:600px; border-collapse:collapse; border:none; margin:2rem 0;">
   <tr>
     <td style="width:120px; vertical-align:top; border:none; padding:0;">
       <img src="/assets/images/SIX_34D84334-6FBF-4529-BBE9-7557ADF4174D.JPG" 
