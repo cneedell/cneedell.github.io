@@ -1,7 +1,7 @@
 ---
 layout: home
+title: caroline needell
 ---
 
-# hello
-
+# hi!
 website building in progress.
