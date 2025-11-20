@@ -16,7 +16,6 @@ permalink: /
     <!-- Right column: text -->
     <td style="padding-left:20px; vertical-align:top; border:none;">
       <!-- Page title hidden manually -->
-      <h1 style="display:none;">Home</h1>
       <h1>hi, i'm caroline!</h1>
       <p>website in progress</p>
     </td>
