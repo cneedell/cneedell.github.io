@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Home
+title: about
 permalink: /
 ---
 
@@ -11,7 +11,6 @@ permalink: /
     <div class="home-photo">
       <img src="/assets/images/SIX_34D84334-6FBF-4529-BBE9-7557ADF4174D.JPG" alt="My photo" style="width:120px;" />
     </div>
-
     <!-- Right column: text -->
     <div class="home-text">
       <h1>Hi!</h1>
