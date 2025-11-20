@@ -1,6 +1,6 @@
 ---
 layout: home
-title: caroline needell
+title: home
 ---
 
 # hi!
