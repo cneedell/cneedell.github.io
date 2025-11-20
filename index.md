@@ -3,5 +3,5 @@ layout: home
 title: about
 ---
 
-# hi!
-website building in progress.
+# hi, i'm caroline!
+website building in progress
