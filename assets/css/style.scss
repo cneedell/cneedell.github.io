@@ -3,38 +3,39 @@
 
 @import "minima";
 
-/* Hide the page title but keep it in the navigation menu */
+/* Your custom styles below */
 body.page .post-title {
-  display: none !important;
+  display: none !important;   /* hide page title */
 }
 
-/* Homepage table styling */
+body.page .site-footer {
+  display: none !important;   /* hide footer */
+
+}
+
 .homepage-table {
   width: 100%;
   max-width: 600px;
-  border-collapse: collapse; /* remove lines */
+  border-collapse: collapse; /* remove table lines */
   margin: 2rem auto;
 }
 
 .homepage-table td {
-  border: none; /* remove faint borders */
-  padding: 0;   /* optional: remove cell padding */
+  border: none;
+  padding: 0;
   vertical-align: top;
 }
 
-/* Responsive: stack columns on small screens */
 @media (max-width: 600px) {
   .homepage-table tr {
     display: block !important;
   }
-
   .homepage-table td {
     display: block !important;
     width: 100% !important;
     padding-left: 0 !important;
     text-align: center;
   }
-
   .homepage-table img {
     width: 80px !important;
     margin-bottom: 1rem;
