@@ -2,4 +2,46 @@
 ---
 
 @import "minima";
-@import "style";
+
+/* --- Custom homepage styles --- */
+
+/* Hide homepage title */
+body.page .post-title {
+  display: none !important;
+}
+
+/* Hide footer / site title */
+body.page .site-footer {
+  display: none !important;
+}
+
+/* Homepage table layout */
+.homepage-table {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 2rem auto;
+}
+
+.homepage-table td {
+  border: none;
+  padding: 0;
+  vertical-align: top;
+}
+
+/* Responsive: stack on mobile */
+@media (max-width: 600px) {
+  .homepage-table tr {
+    display: block !important;
+  }
+  .homepage-table td {
+    display: block !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    text-align: center;
+  }
+  .homepage-table img {
+    width: 80px !important;
+    margin-bottom: 1rem;
+  }
+}
