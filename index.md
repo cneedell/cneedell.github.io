@@ -1,6 +1,7 @@
 ---
 layout: home
-title: ""
+title: home
+hide_title: true
 ---
 
 # hi!
