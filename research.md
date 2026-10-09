@@ -4,7 +4,20 @@ title: research
 permalink: /research/
 ---
 
-here are a few things I’m working on:
+more to come
 
-## project 1
-more to come!
+<div class="projects">
+
+  <div class="project" markdown="1">
+  <p class="project__meta">current</p>
+  ### title
+  description
+  </div>
+
+  <div class="project" markdown="1">
+  <p class="project__meta">published · 2023</p>
+  ### title
+  description
+  </div>
+
+</div>
