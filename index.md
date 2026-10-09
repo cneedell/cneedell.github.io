@@ -12,7 +12,7 @@ title: Caroline Needell
     decoding="async" />
 
   <div class="hero__text">
-    <h1>hi, i'm caroline!</h1>
+    <h1>Hi, i'm caroline!</h1>
     <p class="hero__tagline">PhD student</p>
     <p>more to come</p>
     <p class="hero__links">
