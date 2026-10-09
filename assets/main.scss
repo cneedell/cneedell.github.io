@@ -1,0 +1,143 @@
+---
+# Front matter required so Jekyll processes this file.
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+/* ---------- tokens ---------- */
+:root {
+  --measure: 34rem;
+  --gap: 1.75rem;
+  --radius: 10px;
+}
+
+/* ---------- homepage hero ---------- */
+.front { max-width: 46rem; }
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap);
+  margin: 2rem 0 3rem;
+}
+
+.hero__photo {
+  flex: 0 0 160px;
+  width: 160px;
+  height: auto;
+  border-radius: var(--radius);
+  display: block;
+}
+
+.hero__text { max-width: var(--measure); }
+
+.hero__text h1 {
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+.hero__tagline {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.hero__links {
+  margin-top: 1.25rem;
+  font-size: 0.95rem;
+}
+
+/* Stack on narrow screens instead of forcing side-by-side */
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .hero__photo {
+    flex-basis: auto;
+    width: 128px;
+  }
+}
+
+/* ---------- readable body copy ---------- */
+.post-content {
+  max-width: 40rem;
+}
+
+.post-content p,
+.post-content li {
+  line-height: 1.65;
+}
+
+/* ---------- project cards ---------- */
+.projects {
+  display: grid;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.project {
+  border: 1px solid;
+  border-color: #e8e8e8;
+  border-radius: var(--radius);
+  padding: 1.25rem 1.5rem;
+}
+
+.project h3 { margin-top: 0; }
+
+.project__meta {
+  font-size: 0.875rem;
+  opacity: 0.75;
+  margin-bottom: 0.5rem;
+}
+
+.pub-links a { margin-right: 0.75rem; }
+
+/* ---------- photo gallery ---------- */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.75rem;
+  margin: 2rem 0;
+}
+
+.gallery figure { margin: 0; }
+
+.gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+.gallery figcaption {
+  font-size: 0.8125rem;
+  opacity: 0.75;
+  margin-top: 0.35rem;
+}
+
+/* ---------- slim footer ---------- */
+.site-footer {
+  padding: 1.5rem 0;
+  font-size: 0.875rem;
+}
+.site-footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  opacity: 0.8;
+}
+
+/* ---------- accessibility ---------- */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
