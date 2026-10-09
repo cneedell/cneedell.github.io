@@ -4,7 +4,7 @@ title: photos
 permalink: /photos/
 ---
 
-Mostly field photos
+mostly field photos
 
 <div class="gallery">
 {% for photo in site.data.photos %}
