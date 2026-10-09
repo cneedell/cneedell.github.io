@@ -1,15 +1,14 @@
 title: caroline needell
 email: cneedell@mit.edu
 description: >-
-  PhD student 
-url: "https://cneedell.github.io"   # must match Settings → Pages
+  PhD student
+url: "https://cneedell.github.io"
 baseurl: ""
 lang: en
 timezone: America/New_York
 
-author:
-  name: Caroline Needell
-  email: cneedell@mit.edu
+# STRING, not a mapping — minima 2.5.1 prints this raw in the footer.
+author: Caroline Needell
 
 theme: minima
 github_username: cneedell
