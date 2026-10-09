@@ -8,7 +8,6 @@ permalink: /
   <img
     class="hero__photo"
     src="{{ '/assets/images/caroline-needell.jpg' | relative_url }}"
-    alt="Portrait of Caroline Needell"
     width="320" height="320"
     loading="eager"
     decoding="async" />
