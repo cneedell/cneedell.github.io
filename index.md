@@ -1,44 +1,33 @@
 ---
-layout: page
-title: ""
+layout: front
+title: Caroline Needell
 permalink: /
 ---
 
-<!-- Two-column layout -->
-<table style="width:100%; max-width:600px; border-collapse:collapse; border:none; margin:2rem 0;">
-  <tr>
-    <td style="width:160px; vertical-align:top; border:none; padding:0;">
-      <img src="/assets/images/SIX_34D84334-6FBF-4529-BBE9-7557ADF4174D.JPG" 
-           alt="My photo" 
-           style="width:160px; border-radius:10px; display:block;" />
-    </td>
-    <td style="padding-left:20px; vertical-align:top; border:none;">
-      <h1>hi, i'm caroline!</h1>
-      <p>website in progress</p>
-    </td>
-  </tr>
+<div class="hero">
+  <img
+    class="hero__photo"
+    src="{{ '/assets/images/caroline-needell.jpg' | relative_url }}"
+    alt="Portrait of Caroline Needell"
+    width="320" height="320"
+    loading="eager"
+    decoding="async" />
 
-<style>
-  /* Hide homepage title */
-  body.page h1.post-title {
-    display: none !important;
-  }
-
-  /* Hide Minima footer */
-  .site-footer { display: none !important; }
-
-  /* Keep two columns side by side on small screens */
-  @media (max-width: 600px) {
-    table, tr, td {
-      display: table-cell !important;  /* keep them as table cells */
-      width: auto !important;          /* allow columns to size naturally */
-      text-align: left;                /* align text left */
-      padding-left: 0 !important;
-    }
-
-    img {
-      width: 100px !important;          /* shrink image on small screens */
-      margin: 0 1rem 0 0 !important;  /* space between image and text */
-    }
-  }
-</style>
+  <div class="hero__text">
+    <h1>hi, i'm caroline!</h1>
+    <p class="hero__tagline">
+      PhD student in the MIT–WHOI Joint Program in Geology&nbsp;&amp;&nbsp;Geophysics.
+    </p>
+    <p>
+      I study how glaciers break. My work combines satellite remote sensing,
+      field observations, and ice-sheet models to understand ice-cliff calving
+      and marine ice cliff instability — the processes that set the upper bound
+      on how fast Antarctica can lose ice.
+    </p>
+    <p class="hero__links">
+      <a href="{{ '/research/' | relative_url }}">research</a> ·
+      <a href="mailto:{{ site.email }}">email</a> ·
+      <a href="https://scholar.google.com/citations?user=dzOFzq0AAAAJ">scholar</a>
+    </p>
+  </div>
+</div>
