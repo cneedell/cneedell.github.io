@@ -1,49 +1,28 @@
-# --- site ---
 title: caroline needell
 email: cneedell@mit.edu
 description: >-
-  PhD student
-url: "https://cneedell.github.io"   # no trailing slash
-baseurl: ""                              # "" for a user site; "/reponame" for a project site
+  PhD student 
+url: "https://cneedell.github.io"   # must match Settings → Pages
+baseurl: ""
 lang: en
 timezone: America/New_York
 
-# --- author (used by jekyll-seo-tag) ---
 author:
   name: Caroline Needell
   email: cneedell@mit.edu
 
-# --- theme ---
 theme: minima
-minima:
-  # classic | dark | auto | solarized | solarized-dark | solarized-light
-  skin: auto
-  # NOTE: this hash syntax is for minima 2.5.x (what GitHub Pages ships).
-  # If you upgrade to minima 3.x locally, convert to the list syntax.
-  social_links:
-    #github: cneedell
-    linkedin: caroline-needell-9354511b0
+github_username: cneedell
 
-# --- navigation ---
-# index.md intentionally omitted: the site title already links home.
 header_pages:
   - research.md
   - photos.md
 
-# --- plugins (all whitelisted on GitHub Pages) ---
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
 
-# --- front-matter defaults ---
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: page
-
-# --- build ---
 show_excerpts: false
 sass:
   style: compressed
