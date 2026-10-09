@@ -31,7 +31,6 @@
 
 .hero__text { max-width: var(--measure); }
 .hero__text h1 { margin-top: 0; line-height: 1.1; }
-
 .hero__tagline { font-weight: 600; margin-bottom: 0.75rem; }
 .hero__links { margin-top: 1.25rem; font-size: 0.95rem; }
 
@@ -47,7 +46,6 @@
 
 /* ---------- project cards ---------- */
 .projects { display: grid; gap: 1.5rem; margin: 1.5rem 0; }
-
 .project {
   border: 1px solid #e8e8e8;
   border-radius: var(--radius);
@@ -93,6 +91,16 @@
   gap: 1rem;
   justify-content: space-between;
   opacity: 0.8;
+}
+
+/* ---------- dark mode (hand-rolled; 2.5.1 has no skins) ---------- */
+@media (prefers-color-scheme: dark) {
+  body { background-color: #151515; color: #e8e8e8; }
+  a { color: #7fb3ff; }
+  a:visited { color: #b39ddb; }
+  .project { border-color: #333; }
+  .pubs > li { border-left-color: #444; }
+  .site-header, .site-footer { border-color: #333; }
 }
 
 /* ---------- a11y ---------- */
