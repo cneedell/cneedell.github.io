@@ -1,4 +1,4 @@
----
+----
 layout: front
 title: Caroline Needell
 permalink: /
@@ -8,7 +8,6 @@ permalink: /
   <img
     class="hero__photo"
     src="{{ '/assets/images/caroline-needell.jpg' | relative_url }}"
-    width="320" height="320"
     loading="eager"
     decoding="async" />
 
@@ -17,11 +16,10 @@ permalink: /
     <p class="hero__tagline">
       PhD student
     </p>
-    <p>
-      more to come
-    </p>
+    <p>more to come</p>
     <p class="hero__links">
       <a href="{{ '/research/' | relative_url }}">research</a> ·
+      <a href="{{ '/photos/' | relative_url }}">photos</a> ·
       <a href="mailto:{{ site.email }}">email</a> ·
       <a href="https://scholar.google.com/citations?user=dzOFzq0AAAAJ">scholar</a>
     </p>
